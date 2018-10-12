@@ -1,22 +1,28 @@
+html,
 body {
 	background-color: white;
 	color: #2a2a30;
 	font-family: 'Lucida Console';
-	/*Gridlayout*/ margin : 0;
+	margin: 0;
+	height: 100%;
+}
+
+.gridLayout {
 	display: grid;
 	grid-template-columns: repeat(40, 2.5%);
 	grid-template-rows: repeat(20, 5%);
-	margin: 0
+	height: 100%;
 }
 
 .sideBar {
-	grid-column: 1/8;
-	grid-row: 1/14;
+	
+	grid-column: 1/10;
+	grid-row: 1/21;
 	background-color: red;
 }
 
 .content {
-	grid-column: 8/41;
-	grid-row: 1/11;
+	grid-column: 10/41;
+	grid-row: 1/21;
 	background-color: yellow;
 }
