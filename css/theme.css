@@ -13,16 +13,3 @@ body {
 	grid-template-rows: repeat(20, 5%);
 	height: 100%;
 }
-
-.sideBar {
-	
-	grid-column: 1/10;
-	grid-row: 1/21;
-	background-color: red;
-}
-
-.content {
-	grid-column: 10/41;
-	grid-row: 1/21;
-	background-color: yellow;
-}
