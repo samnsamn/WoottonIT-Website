@@ -1,0 +1,15 @@
+html,
+body {
+	background-color: white;
+	color: #2a2a30;
+	font-family: 'Lucida Console';
+	margin: 0;
+	height: 100%;
+}
+
+.gridLayout {
+	display: grid;
+	grid-template-columns: repeat(40, 2.5%);
+	grid-template-rows: repeat(20, 5%);
+	height: 100%;
+}
