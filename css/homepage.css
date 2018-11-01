@@ -1,20 +1,20 @@
 .sideBar {
 	grid-column: 1/9;
 	grid-row: 1/21;
-	background-color: #047895;
+	background-color: #262C33;
 	display: grid;
 	grid-template-rows: repeat(20, 5%);
 }
 
 .sideBar > logo {
 	grid-row: 1/6;
-	background-color: red;
+	background-color: #EEAC18;
 }
 
 .content {
 	grid-column: 9/41;
 	grid-row: 1/21;
-	background-color: #D5D8DA;
+	background-color: #D1CCC7;
 	
 	display: grid;
 	grid-template-rows: repeat(20, 5%);
