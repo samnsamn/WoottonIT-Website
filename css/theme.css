@@ -14,23 +14,10 @@ body {
 	height: 100%;
 }
 
-.sideBar {
-	grid-column: 1/9;
-	grid-row: 1/21;
-	background-color: #047895;
-	display: grid;
-	grid-template-rows: repeat(20, 5%);
-}
-
-.sideBar > logo {
-	grid-row: 1/6;
-	background-color: #555555;
-} 
-
 .content {
 	grid-column: 9/41;
 	grid-row: 1/21;
-	background-color: #D5D8DA;
+	background-color: white;
 	
 	display: grid;
 	grid-template-rows: repeat(20, 5%);
@@ -49,21 +36,4 @@ body {
 	grid-column: 4/10;
 	grid-row: 5/15;
 	background-color: blue;
-}
-
-
-.nav {
-	grid-row: 8/16;
-}
-
-.nav a {
-	padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 2em;
-    color: #515151;
-    display: block;
-}
-
-.nav a:hover {
-    color: #f1f1f1;
 }

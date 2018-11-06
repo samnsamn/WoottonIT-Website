@@ -3,25 +3,34 @@
 
 <head>
 
-<link rel="stylesheet" href="css/theme.css" />
-<link rel="stylesheet" href="css/homepage.css" />
+<link
+	rel="stylesheet"
+	href="css/theme.css" />
+<link
+	rel="stylesheet"
+	href="css/homepage.css" />
+<link
+	rel="stylesheet"
+	href="css/sidebar.css" />
+
 <title>Wootton Competitive IT</title>
 
 </head>
-
 <body>
 	<div class="gridLayout">
 		<div class="sideBar">
-			<logo> <img src="WebContent/logo_joke.png" alt="Club_Logo"
-				width="100%" height="100%"> </logo>
+			<div id="logo">
+				<input
+					type="image"
+					src="WebContent/woottonitlogo.png"
+					onmouseover="this.src='webcontent/woottonitlogo_white.png';"
+					onmouseout="this.src='webcontent/woottonitlogo.png';" 
+					height="90%" width="90%"/>
+			</div>
 
 			<div class="nav">
-				<a href="#">Home</a> 
-				<a href="#">About</a>
-				<a href="#">Team</a> 
-				<a href="#">Competitions</a>
-				<a href="#">Projects</a>
-				<a href="#">Discord</a>
+				<a href="#">Home</a> <a href="#">About</a> <a href="#">Team</a> <a
+					href="#">Competitions</a> <a href="#">Projects</a> <a href="#">Discord</a>
 				<a href="#">Contact Us</a>
 			</div>
 		</div>
@@ -31,6 +40,8 @@
 	</div>
 </body>
 
-
+<script>
+	document.getElementById("test").innerHTML = "NewText";
+</script>
 
 </html>

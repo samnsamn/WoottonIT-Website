@@ -1,0 +1,30 @@
+.sideBar {
+	grid-column: 1/9;
+	grid-row: 1/21;
+	background-color: #D5D8DA;
+	display: grid;
+	grid-template-rows: repeat(20, 5%);
+}
+
+#logo {
+	text-align: center;
+	padding-top: 8%;
+	grid-row: 1/5;
+}
+
+.nav {
+	grid-row: 8/16;
+    font-size: 1.5em;
+    text-align: center;    \
+    color: #515151;
+}
+
+.nav a {
+	padding: 6px 8px 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav a:hover {
+    color: #f1f1f1;
+}
